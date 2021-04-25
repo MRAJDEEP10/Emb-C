@@ -1,16 +1,23 @@
-# Blinky Project In Action
+# Simulation
 
-|ON|OFF|
-|:--:|:--:|
-|\image html ON.png||
+## OFF
 
-## Code 
-```
-	for(;;)
-	{
-        change_led_state(HIGH);
-		delay_ms(LED_ON_TIME);
-        change_led_state(LOW);
-		delay_ms(LED_OFF_TIME);	
-	}
-```
+### Condition 1
+
+* When Both the Switch is in OFF Condition.
+
+![OFF](simu1.png)
+
+### Condition2
+
+* When One of the Switch is in OFF Condition.
+
+![OFF](simu2.png)
+
+![OFF](simu3.png)
+
+## ON
+
+* When Both Switch is in ON Condition.
+
+![ON](simu4.png)
